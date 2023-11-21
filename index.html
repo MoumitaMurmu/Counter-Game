@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Game</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h2>Private counter game:- Design a private counter function which exposes increment, decrement and retrieve 
+        functionalities- Create two buttons for user A and B- Hitting a user’s button increments it’s counter by 1, and 
+        decrements the other user’s counter by 1 too.- First to reach the value 10 wins. Display "Player A/B wins"</h2>
+        
+        
+        <button id="btn1" onclick="userA()">Player A</button>
+        <button id="btn2" onclick="userB()">Player B</button>
+        <br>
+        <p>Player A Counter : <span id="counterA">0</span></p>
+        <p>Player B Counter : <span id="counterB">0</span></p>
+        <h1 id="winner"></h1>
+       <script src="index.js"></script>
+</body>
+</html>
